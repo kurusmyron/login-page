@@ -6,6 +6,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Requirements
+
+Complete a simple login form for this app.
+
+1. Hardwire "login.routes.ts" to the feature module "LoginModule";
+2. Lazy load "LoginModule" in the main app;
+3. Create a "login.service" with method "login".
+4. Call the "login" method and pass a username and password when the form is submitted. You can use template driven forms. You can use "https://jsonplaceholder.typicode.com/todos/1" to mock a login request.
+5. Add validation to the login form. Check if a user's password and name are not empty, and if they are, display an error message.
+6. If the login process is successful, console.log the response that has come from the server.
+7. Center the login form using flexbox (horizontally and vertically)
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
